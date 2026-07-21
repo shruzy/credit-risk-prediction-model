@@ -14,21 +14,24 @@ A machine learning project that predicts whether a loan applicant will default o
 ![Feature Importance](images/feature_importance.png)
 
 ## Project Structure
+
+```bash
 credit-risk-model/
 ├── data/
-│ └── credit_risk_dataset.csv
+│   └── credit_risk_dataset.csv
 ├── notebooks/
-│ └── credit_risk_model.ipynb
+│   └── credit_risk_model.ipynb
 ├── models/
-│ ├── logistic_regression.pkl
-│ ├── xgboost_model.pkl
-│ └── scaler.pkl
+│   ├── logistic_regression.pkl
+│   ├── xgboost_model.pkl
+│   └── scaler.pkl
 ├── images/
-│ ├── confusion_matrices.png
-│ ├── roc_curve.png
-│ └── feature_importance.png
+│   ├── confusion_matrices.png
+│   ├── roc_curve.png
+│   └── feature_importance.png
 ├── requirements.txt
 └── README.md
+```
 
 ## Dataset
 
